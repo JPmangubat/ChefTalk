@@ -1,0 +1,7 @@
+{
+  "name": "cheftalk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

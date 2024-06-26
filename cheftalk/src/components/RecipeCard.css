@@ -1,0 +1,62 @@
+.foods{
+    padding: 25px;
+    overflow: auto;
+
+    .content-food{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .card{
+            margin: 0;
+            padding: 0;
+            width: calc(50% - 10px);
+            height: 100%;
+            border-radius: 30px;
+            --background: transparent;
+            
+        
+
+            .recipes{
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                background-color: rgba(42, 42, 44, 0.747);
+
+                img{
+                    border-radius: 50%;
+                    border: solid 2px purple;
+                }
+
+                h1{
+                    color: white;
+                    text-align: center;
+                    font-size: 18px;
+                }
+
+                .time{
+                    display: flex;
+                    padding: 5px;
+                    align-items: center;
+                    justify-content: space-between;
+                    
+
+                    h2{
+                        color: #D901FC;
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+
+                    span{
+                        padding: 10px;
+                        background-color: purple;
+                        color: white;
+                        font-size: 14px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

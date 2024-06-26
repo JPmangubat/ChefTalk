@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 20px;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #080808;
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+
+        .image{
+            width: 70px;
+            height: 70px;
+        }
+
+        .ionbutton{
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .text{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+        margin-left: 10px;
+
+       h3{
+        color: white;
+        font-size: 28px;
+        margin: 0;
+        justify-content: center;
+       } 
+    }
+
+    .search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        label{
+            img{
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                top: 50%;
+                left: 20px;
+                transform: translateY(-50%);
+            }
+
+            input{
+                width: 100%;
+                height: 40px;
+                border-radius: 30px 0px 0px 30px;
+                padding: 25px;
+                padding-left: 60px;
+                color: white;
+                background-color: rgba(42, 42, 44, 0.747);
+                border: none;
+                font-size: 20px;
+                margin: 0;
+            }
+        }
+
+        button{
+            width: 50px;
+            height: 50px;
+            border: none;
+            background-color: purple;
+            outline: none;
+            color: white;
+            padding: 5px;
+            border-radius: 0px 30px 30px 0px;
+            margin: 0;
+        }
+    }
+}
+
+.content{
+    --background: #080808;
+    padding-top: 180px;
+}
+
+.menu{
+    --background: rgba(56, 56, 59, 0.37);
+    backdrop-filter: blur(10px) saturate(2);
+
+    
+
+    .menu-header{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+
+        .image{
+            width: 60px;
+            height: 60px;
+        }
+
+        .text{
+            color: white;
+            font-weight: bolder;
+        }
+
+        .button{
+            width: 50px;
+            height: 50px;
+        }
+
+    }
+}
